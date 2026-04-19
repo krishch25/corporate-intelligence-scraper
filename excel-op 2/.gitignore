@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Data and logs
+data/*.xlsx
+data/*.csv
+*.log
+
+# ChromaDB
+chroma_data/
+
+# Alembic
+alembic/versions/*.py
+!alembic/versions/__init__.py
